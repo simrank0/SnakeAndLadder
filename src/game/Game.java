@@ -55,8 +55,6 @@ public class Game {
                 notifyDiceRoll(roll);
                 Player currentPlayer = players.get(currentPlayerIndex);
                 int newPosition = currentPlayer.getPosition() + roll;
-                System.out.println(currentPlayer.getName() + " rolled " + roll + " and is now at "
-                        + Math.min(newPosition, board.getSize()));
                 movePlayer(currentPlayer, newPosition);
             } else {
                 break;
@@ -76,10 +74,10 @@ public class Game {
         int squareType = board.getSquareType(finalPosition);
         if (squareType == -1) {
             finalPosition = board.getSnakeTail(finalPosition);
-            System.out.println(player.getName() + " landed on a snake and slides down to " + finalPosition);
+            System.out.println(player.getName() + " landed on a snake at " + player.getPosition());
         } else if (squareType == 1) {
             finalPosition = board.getLadderTop(finalPosition);
-            System.out.println(player.getName() + " climbed a ladder to " + finalPosition);
+            System.out.println(player.getName() + " climbed a ladder at " + player.getPosition());
         }
 
         player.setPosition(finalPosition);

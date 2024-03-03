@@ -2,6 +2,7 @@ import board.GameBoard;
 import board.GameBoardFactory;
 import die.DiceRoller;
 import die.DiceRollerFactory;
+import game.CustomGameEventListener;
 import game.Game;
 import player.Player;
 import player.PlayerManager;
@@ -28,8 +29,11 @@ public class SnakeAndLadders {
         PlayerManager playerManager = new PlayerManager();
         List<Player> players = playerManager.createPlayers();
 
-        // Start the game
         Game game = new Game(board, diceRoller, players);
+
+        //Add eventListeners
+        game.addEventListener(new CustomGameEventListener());
+
         game.startGame();
     }
 

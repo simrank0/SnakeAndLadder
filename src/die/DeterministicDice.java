@@ -22,7 +22,7 @@ public class DeterministicDice implements DiceRoller {
      */
     @Override
     public int roll() {
-        int rollIndex = (int)(Math.random() * rolls.length) + 1;
+        int rollIndex = (int)(Math.random() * rolls.length);
         return rolls[rollIndex];
     }
 }
