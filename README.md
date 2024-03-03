@@ -35,4 +35,5 @@ The first player to reach the final square (the last square of board) wins the g
 3. Run `SnakeAndLadders.java`
 
 ## UML
-<img width="1229" alt="Screenshot 2024-03-03 at 5 53 19 PM" src="https://github.com/simrank0/SnakeAndLadder/assets/56548348/5f8574be-3eed-4657-a8b4-7e5f1d462ddf">
+<img width="1230" alt="Screenshot 2024-03-03 at 5 59 10 PM" src="https://github.com/simrank0/SnakeAndLadder/assets/56548348/d3851c0d-75f6-4736-a4a4-29ce0f2ca8d9">
+
