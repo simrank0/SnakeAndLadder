@@ -33,3 +33,6 @@ The first player to reach the final square (the last square of board) wins the g
 1. Ensure you have Java (21) installed on your system.
 2. Clone or download the project repository.
 3. Run `SnakeAndLadders.java`
+
+## UML
+<img width="1229" alt="Screenshot 2024-03-03 at 5 53 19 PM" src="https://github.com/simrank0/SnakeAndLadder/assets/56548348/5f8574be-3eed-4657-a8b4-7e5f1d462ddf">
