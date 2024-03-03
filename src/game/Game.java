@@ -73,11 +73,11 @@ public class Game {
         // Check for snake or ladder
         int squareType = board.getSquareType(finalPosition);
         if (squareType == -1) {
+            System.out.println(player.getName() + " landed on a snake at " + finalPosition);
             finalPosition = board.getSnakeTail(finalPosition);
-            System.out.println(player.getName() + " landed on a snake at " + player.getPosition());
         } else if (squareType == 1) {
+            System.out.println(player.getName() + " climbed a ladder at " + finalPosition);
             finalPosition = board.getLadderTop(finalPosition);
-            System.out.println(player.getName() + " climbed a ladder at " + player.getPosition());
         }
 
         player.setPosition(finalPosition);
