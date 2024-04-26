@@ -30,7 +30,7 @@ If the player lands on the head of a snake, they slide down to the snake's tail 
 The first player to reach the final square (the last square of board) wins the game.
 
 ### Running the Game:
-1. Ensure you have Java (21) installed on your system.
+1. Ensure you have Java installed on your system.
 2. Clone or download the project repository.
 3. Run `SnakeAndLadders.java`
 
