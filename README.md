@@ -1,6 +1,6 @@
 
 # Snake and Ladders Game:
-Welcome to the Snake and Ladders game!
+Welcome to the Snake and Ladders game! Refer to this article: [Enhancing a Classic: Design Patterns in Snake & Ladders](https://open.substack.com/pub/simrankhanna/p/enhancing-a-classic-design-patterns?r=1ga7b5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
 This project implements the classic board game of Snake and Ladders in Java. It demonstrates various programming concepts and potential design patterns.
 
@@ -34,6 +34,7 @@ The first player to reach the final square (the last square of board) wins the g
 2. Clone or download the project repository.
 3. Run `SnakeAndLadders.java`
 
+
 ## UML
-<img width="1230" alt="Screenshot 2024-03-03 at 5 59 10 PM" src="https://github.com/simrank0/SnakeAndLadder/assets/56548348/d3851c0d-75f6-4736-a4a4-29ce0f2ca8d9">
+<img width="758" alt="Screenshot 2024-04-26 at 7 44 44 PM" src="https://github.com/simrank0/SnakeAndLadder/assets/56548348/1c548aad-86b1-48ba-962e-34382a8d0223">
 
